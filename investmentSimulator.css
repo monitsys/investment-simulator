@@ -1,0 +1,96 @@
+#invsim-inner-root {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 17px;
+}
+
+#invsim-inner-root td,
+#invsim-inner-root input,
+#invsim-inner-root select
+{
+	border: 1px solid #595959;
+}
+
+#invsim-inner-root table {
+	border-collapse: collapse;
+}
+
+#invsim-setting-from input,
+#invsim-setting-from select
+{
+    display: block;
+    width: 200px;
+	margin-bottom: 6px;
+	padding: 3px;
+	font-size: 16px;
+}
+
+#invsim-defaultButton,
+#invsim-defaultButton:visited {
+	color: rgb(0,0,238);
+}
+
+.invsim-vertical-divider {
+	padding:8px;
+}
+
+#invsim-scenarious-tabel input {
+	width: 80px;
+	margin-bottom: 0px;
+}
+
+#invsim-scenarious-tabel td {
+	padding: 8px;
+}
+
+#invsim-general-result td {
+	padding: 5px;
+	font-size: 18px;
+}
+
+#invsim-result-table {
+	border-collapse: collapse;
+	width: 80%;
+}
+
+#invsim-result-table td {
+	padding: 5px;
+}
+
+.invsim-error-input {
+	background-color: pink;
+}
+
+#invsim-error-message {
+	color: red;
+	font-weight:bold;
+}
+
+.invsim-expander {
+	text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+    cursor: pointer;
+}
+
+.invsim-blue-button {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:6px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+	width: 160px;
+}
+
+.invsim-blue-button:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Speculation Simulator</title>
+    <script type="text/javascript" src="investmentSimulator.js?20180429v01"></script>
+    <script type="text/javascript" src="outputRenderer.js?20180429v01"></script>
+    <script type="text/javascript" src="simulatorRunner.js?20180429v01"></script>
+    <link href="investmentSimulator.css?20180429v01" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="rootInvSimulator" style="margin:25px"></div>
+    <script type="text/javascript">
+        var invSim = createSimulator();
+        invSim.init({ numberOfIteration: 20 });
+        invSim.generateAt('rootInvSimulator');
+    </script>
+</body>
+</html>
