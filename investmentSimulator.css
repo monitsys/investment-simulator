@@ -1,13 +1,15 @@
 #invsim-inner-root {
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 17px;
+	color: #333;
 }
 
 #invsim-inner-root td,
 #invsim-inner-root input,
 #invsim-inner-root select
 {
-	border: 1px solid #595959;
+	border: 1px solid rgb(173, 216, 230);
+	color: #333;
 }
 
 #invsim-inner-root table {
@@ -22,6 +24,7 @@
 	margin-bottom: 6px;
 	padding: 3px;
 	font-size: 16px;
+	color: #333;
 }
 
 #invsim-defaultButton,
